@@ -45,9 +45,9 @@ function Header() {
             <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
            <img src={"/images/logo.jpg"} className=' rounded-4xl '/>
             </div>
-            <div className="hidden sm:block">
+            <div >
               <h1 className="text-xl lg:text-2xl font-bold text-primary font-[clash] leading-none">
-                Raja Barley
+                Raja Barley Biscuit Co.
               </h1>
               <p className="text-xs text-primary font-medium ">Since 1926</p>
             </div>
