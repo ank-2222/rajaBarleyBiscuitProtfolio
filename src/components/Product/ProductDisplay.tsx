@@ -124,7 +124,7 @@ const bakeryImages = [
 
 function ProductDisplay() {
   return (
-    <div className="relative mb-10 ">
+    <div className="relative mb-10 wavePattern ">
       <div className="w-full h-1 bg-primary" />
       <img
         className="w-full h-[300px] lg:h-[600px] object-cover  "
@@ -147,7 +147,7 @@ function ProductDisplay() {
         gapSize={24}
       />
 </div>
-<div className=" m-auto max-w-[1440px]">
+<div className=" m-auto mt-10 max-w-[1440px]">
 
     <p className=" text-3xl lg:text-7xl mb-5 font-[clash] text-center font-semibold   ">Sweet Taste</p>
       <ImageGallery
@@ -157,7 +157,7 @@ function ProductDisplay() {
         gapSize={24}
       />
 </div>
-<div className=" m-auto max-w-[1440px]">
+<div className=" m-auto mt-10 max-w-[1440px]">
 
     <p className=" text-3xl lg:text-7xl mb-5 font-[clash] text-center font-semibold   ">Bakery Bites</p>
       <ImageGallery

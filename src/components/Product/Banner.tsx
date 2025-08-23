@@ -5,7 +5,7 @@ function Banner() {
  <div className=" inset-0 flex items-center justify-center px-4 sm:px-6 lg:px-8">
         <div className="relative max-w-4xl w-full">
           {/* Main Banner Card */}
-          <div className="relative bg-gradient-to-br from-blue-900/95 via-blue-800/95 to-blue-900/95 backdrop-blur-md rounded-2xl shadow-2xl border border-white/10 overflow-hidden">
+          <div className="relative  bg-gradient-to-br from-blue-900/95 via-blue-800/95 to-blue-900/95 backdrop-blur-md rounded-2xl shadow-2xl border border-white/10 overflow-hidden">
             {/* Decorative Elements */}
             <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-yellow-400 to-transparent"></div>
             <div className="absolute -top-2 -right-2 w-16 h-16 bg-yellow-400/20 rounded-full blur-xl"></div>

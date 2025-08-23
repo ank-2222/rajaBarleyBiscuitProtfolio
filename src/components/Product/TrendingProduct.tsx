@@ -50,7 +50,7 @@ function TrendingProducts() {
         <div className="flex flex-1 flex-wrap justify-center gap-8  w-full px-4 sm:px-6 lg:px-8 pb-8">
           {TrendingProduct.map((product) => (
           <div>
-            <img className="
+            <img loading="lazy" className="
          w-[300px] h-[300px] sm:w-[220px] sm:h-[220px] md:w-[250px] md:h-[250px] lg:w-[280px] lg:h-[280px] object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-300
             "  src={product.image} />
             
@@ -75,7 +75,7 @@ function TrendingProducts() {
         <div className="flex flex-1 flex-wrap justify-center gap-8  w-full px-4 sm:px-6 lg:px-8 pb-8">
           {TrendingProduct.map((product) => (
           <div>
-            <img className="
+            <img loading="lazy" className="
          w-[300px] h-[300px] sm:w-[220px] sm:h-[220px] md:w-[250px] md:h-[250px] lg:w-[280px] lg:h-[280px] object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-300
             "  src={product.image} />
             

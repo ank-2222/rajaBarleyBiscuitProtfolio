@@ -48,7 +48,7 @@ function ProductsOverview() {
   ];
 
   return (
-    <div className="relative bg-gradient-to-br from-amber-50 via-white to-orange-50 py-16 lg:py-24 overflow-hidden">
+    <div className=" wavePattern relative bg-gradient-to-br from-amber-50 via-white to-orange-50 py-16 lg:py-24 overflow-hidden">
       {/* Decorative Background */}
       <div className="absolute top-0 right-0 w-64 h-64 opacity-5 pointer-events-none">
         <svg viewBox="0 0 200 200" className="w-full h-full text-primary">
@@ -56,11 +56,11 @@ function ProductsOverview() {
           <circle cx="100" cy="100" r="60" fill="none" stroke="currentColor" strokeWidth="2" />
         </svg>
       </div>
-      <div className="absolute bottom-0 left-0 w-48 h-48 opacity-5 pointer-events-none">
+      {/* <div className="absolute bottom-0 left-0 w-48 h-48 opacity-5 pointer-events-none">
         <svg viewBox="0 0 100 100" className="w-full h-full text-primary">
           <path d="M50,10 L60,35 L85,35 L67,52 L73,77 L50,65 L27,77 L33,52 L15,35 L40,35 Z" fill="currentColor" />
         </svg>
-      </div>
+      </div> */}
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
