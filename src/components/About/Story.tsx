@@ -1,7 +1,7 @@
 import React from "react";
 
 const Story: React.FC = () => (
-  <div className="py-16 lg:py-24 bg-gradient-to-br from-amber-50 via-white to-orange-50 overflow-hidden">
+  <div className=" wavePattern2 py-16 lg:py-24 bg-gradient-to-br from-amber-50 via-white to-orange-50 overflow-hidden">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
         {/* Story Content */}
@@ -43,7 +43,7 @@ const Story: React.FC = () => (
 
             <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent rounded-xl"></div>
             <div className="absolute bottom-6 left-6 bg-white/95 backdrop-blur-sm rounded-full px-4 py-2 shadow-lg">
-              <span className="text-primary font-bold text-sm font-[britney]">Since 1995</span>
+              <span className="text-primary font-bold text-sm font-[britney]">Since 1926</span>
             </div>
           </div>
         </div>

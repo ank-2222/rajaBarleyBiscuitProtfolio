@@ -1,7 +1,7 @@
 import React from "react";
 
 const Contact: React.FC = () => (
-  <div className="py-16 lg:py-24 bg-gradient-to-br from-primary/5 via-primary/10 to-primary/5">
+  <div className=" wavePattern py-16 lg:py-24 bg-gradient-to-br from-primary/5 via-primary/10 to-primary/5">
     <div className=" mx-auto px-4 sm:px-6 lg:px-8">
       <div className="text-center mb-16">
         <h3 className="font-[clash] text-4xl sm:text-5xl font-bold text-primary mb-6">Visit Us Today</h3>
