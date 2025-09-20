@@ -1,7 +1,8 @@
 import React from "react";
 
 const Hero: React.FC = () => (
-  <div className="relative bg-gradient-to-br from-amber-50 via-white to-orange-50 overflow-hidden">
+  <div className="relative bg-gradient-to-br from-amber-50 via-white to-orange-50 overflow-hidden  bg-[url('/images/heroteam.jpg')] bg-center  bg-cover bg-no-repeat py-20  ">
+    <div className="absolute top-0 left-0 w-full h-full bg-black/20 " />
     <div className="relative py-20 lg:py-32">
       <div className="absolute top-0 right-0 w-64 h-64 opacity-5">
         <svg viewBox="0 0 200 200" className="w-full h-full text-primary">
@@ -21,15 +22,15 @@ const Hero: React.FC = () => (
             <div className="h-px bg-gradient-to-l from-transparent via-primary to-transparent w-32"></div>
           </div>
 
-          <h1 className="font-[britney] text-7xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold text-primary leading-tight mb-6 drop-shadow-sm">
+          <h1 className="font-[britney] text-7xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold text-white leading-tight mb-6 drop-shadow-sm">
             About Our
           </h1>
-          <h2 className="font-[britney] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-accent leading-tight mb-8 drop-shadow-sm">
+          <h2 className="font-[britney] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight mb-8 drop-shadow-sm">
             Heritage
           </h2>
 
           <div className="max-w-3xl mx-auto">
-            <p className="text-xl sm:text-2xl text-gray-700 leading-relaxed font-medium">
+            <p className="text-xl sm:text-2xl text-white  font-medium">
               A legacy of traditional baking excellence that has been sweetening lives in Madurai for nearly three decades
             </p>
           </div>
