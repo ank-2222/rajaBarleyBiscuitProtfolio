@@ -4,27 +4,27 @@ const PopularProducts = [
   {
     id: 1,
     name: "Brownie",
-    image: "/images/brownie.jpg",
+    image: "/images/brownie.webp",
   },
     {
         id: 2,
         name: "Cookies",
-        image: "/images/cookie.jpg",
+        image: "/images/cookie.webp",
     },
     {
         id: 3,
         name: "Cakes",
-        image: "/images/cake.jpg",
+        image: "/images/cake.webp",
     },
     {
         id: 4,
         name: "Pizza",
-        image: "/images/pizza.jpg",
+        image: "/images/pizza.webp",
     },
     {
         id: 5,
         name: "Tiramisu",
-        image: "/images/tiramisu.jpg",
+        image: "/images/tiramisu.webp",
     }
   
 
