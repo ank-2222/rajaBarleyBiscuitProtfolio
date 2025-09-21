@@ -59,8 +59,8 @@ function Footer() {
                 <div>
                   <p className="text-sm font-medium text-gray-900">Address</p>
                   <p className="text-sm text-gray-600">
-                    81, PT Rajan Rd, Madurai,<br/>
-                    Tamil Nadu 625002
+                 115, Nethaji road<br/>
+                    Tamil Nadu 625001
                   </p>
                 </div>
               </div>

@@ -86,6 +86,7 @@ function Header() {
                 <a
                   key={index}
                   href={social.href}
+                  target='_blank'
                   className="text-primary hover:text-primary/70 transition-colors duration-200"
                   aria-label={social.label}
                 >
@@ -141,6 +142,7 @@ function Header() {
                     <a
                       key={index}
                       href={social.href}
+                      target='_blank'
                       className="text-primary hover:text-primary/70 transition-colors duration-200"
                       aria-label={social.label}
                     >

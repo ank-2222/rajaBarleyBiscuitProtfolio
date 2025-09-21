@@ -23,7 +23,7 @@ const Contact: React.FC = () => (
                 </div>
                 <div>
                   <h5 className="font-bold text-primary mb-1">Address</h5>
-                  <p className="text-gray-700">81, PT Rajan Road<br />Madurai, Tamil Nadu 625002</p>
+                  <p className="text-gray-700">115, Nethaji road<br />Madurai, Tamil Nadu - 625001</p>
                 </div>
               </div>
 

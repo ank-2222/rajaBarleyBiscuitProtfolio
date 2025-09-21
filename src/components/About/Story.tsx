@@ -1,4 +1,5 @@
 import React from "react";
+import Director from "./Director";
 
 const Story: React.FC = () => (
   <div className=" wavePattern2 py-16 lg:py-24 bg-gradient-to-br from-amber-50 via-white to-orange-50 overflow-hidden">
@@ -24,6 +25,7 @@ const Story: React.FC = () => (
           </div>
         </div>
 
+<Director/>
         {/* Story Image */}
         {/* <div className="relative">
           <div className="absolute -inset-4 bg-gradient-to-br from-primary/10 via-transparent to-primary/5 rounded-3xl transform rotate-2"></div>
