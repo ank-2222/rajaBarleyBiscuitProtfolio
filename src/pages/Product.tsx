@@ -1,7 +1,7 @@
 import Hero from "@/components/Product/Hero";
 import ProductDisplay from "@/components/Product/ProductDisplay";
 import ProductsOverview from "@/components/Product/ProductOverview";
-import TrendingProducts from "@/components/Product/TrendingProduct";
+// import TrendingProducts from "@/components/Product/TrendingProduct";
 import Footer from "@/components/ui/Footer";
 import Header from "@/components/ui/Header";
 
@@ -11,7 +11,7 @@ function Product() {
       <Header />
 
       <Hero />
-      <TrendingProducts/>
+      {/* <TrendingProducts/> */}
       <ProductsOverview/>
 <ProductDisplay/>
       <Footer />

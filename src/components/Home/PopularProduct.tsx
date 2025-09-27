@@ -4,31 +4,60 @@ const PopularProducts = [
   {
     id: 1,
     name: "Brownie",
-    image: "/images/brownie.webp",
+    image: "https://images.unsplash.com/photo-1515037893149-de7f840978e2?q=80&w=788&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
     {
         id: 2,
         name: "Cookies",
-        image: "/images/cookie.webp",
+        image: "https://images.unsplash.com/photo-1598839950984-034f6dc7b495?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
         id: 3,
         name: "Cakes",
-        image: "/images/cake.webp",
+        image: "https://images.unsplash.com/photo-1605807646983-377bc5a76493?q=80&w=1448&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
         id: 4,
         name: "Pizza",
-        image: "/images/pizza.webp",
+        image: "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
         id: 5,
-        name: "Tiramisu",
-        image: "/images/tiramisu.webp",
+        name: "Sandwich",
+        image: "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?q=80&w=1746&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     }
   
 
 ];
+// const PopularProducts = [
+//   {
+//     id: 1,
+//     name: "Brownie",
+//     image: "/images/brownie.webp",
+//   },
+//     {
+//         id: 2,
+//         name: "Cookies",
+//         image: "/images/cookie.webp",
+//     },
+//     {
+//         id: 3,
+//         name: "Cakes",
+//         image: "/images/cake.webp",
+//     },
+//     {
+//         id: 4,
+//         name: "Pizza",
+//         image: "/images/pizza.webp",
+//     },
+//     {
+//         id: 5,
+//         name: "Tiramisu",
+//         image: "/images/tiramisu.webp",
+//     }
+  
+
+// ];
 
 
 function PopularProduct() {
