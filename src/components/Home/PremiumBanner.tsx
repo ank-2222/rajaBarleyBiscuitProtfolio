@@ -35,10 +35,10 @@ function PremiumBanner() {
 
             {/* Main Heading */}
             <div className="space-y-4">
-              <h1 className="font-[britney] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-primary leading-tight drop-shadow-sm">
+              <h1 className="font-[clash] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-primary leading-tight drop-shadow-sm">
                 Crafted with
               </h1>
-              <h2 className="font-[britney] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-primary leading-tight drop-shadow-sm">
+              <h2 className="font-[clash] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-primary leading-tight drop-shadow-sm">
                 Tradition & Love
               </h2>
             </div>
@@ -69,14 +69,14 @@ function PremiumBanner() {
                   <path d="M14,17H17L19,13V7H13V13H16M6,17H9L11,13V7H5V13H8L6,17Z"/>
                 </svg>
               </div>
-              <p className="text-primary font-semibold italic text-lg ml-6 font-[britney]">
+              <p className="text-primary font-semibold italic text-lg ml-6 font-[satoshi]">
                 "Every bite is a celebration of heritage and flavor"
               </p>
             </div>
 
             {/* Call to Action */}
             <div className="flex items-center space-x-4 pt-4">
-              <Link  to={"/products"} className="bg-accent hover:bg-primary/90 text-white font-bold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-lg font-[britney] text-lg tracking-wide">
+              <Link  to={"/products"} className="bg-accent hover:bg-primary/90 text-white font-bold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-lg font-[satoshi] text-lg tracking-wide">
                 Explore Our Menu
               </Link>
               <Link to="/about" className="flex items-center text-primary hover:text-primary/80 cursor-pointer transition-colors duration-300">

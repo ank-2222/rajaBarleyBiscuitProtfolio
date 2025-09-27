@@ -74,7 +74,7 @@ function Footer() {
                 <div>
                   <p className="text-sm font-medium text-gray-900">Phone</p>
                   <a href="tel:0452253661" className="text-sm text-primary hover:text-primary/80 transition-colors">
-                    0452 253 6161
+                 45225 36161
                   </a>
                 </div>
               </div>

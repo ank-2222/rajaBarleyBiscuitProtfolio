@@ -30,7 +30,7 @@ const CallToAction: React.FC = () => (
       <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
  
         <a
-          href="tel:0452253661"
+          href="tel:+91 4522536161"
           className="bg-transparent border-2 border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-primary font-bold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105 font-[britney] text-lg tracking-wide min-w-[200px]"
         >
           Call Now

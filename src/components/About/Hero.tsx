@@ -22,10 +22,10 @@ const Hero: React.FC = () => (
             <div className="h-px bg-gradient-to-l from-transparent via-primary to-transparent w-32"></div>
           </div>
 
-          <h1 className="font-[britney] text-7xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold text-white leading-tight mb-6 drop-shadow-sm">
+          <h1 className="font-[clash] text-7xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold text-white leading-tight mb-2 drop-shadow-sm">
             About Our
           </h1>
-          <h2 className="font-[britney] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight mb-8 drop-shadow-sm">
+          <h2 className="font-[clash] text-5xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight mb-8 drop-shadow-sm">
             Heritage
           </h2>
 

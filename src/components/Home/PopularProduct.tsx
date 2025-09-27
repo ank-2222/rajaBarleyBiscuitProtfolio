@@ -53,7 +53,7 @@ function PopularProduct() {
             <img className="
          w-[300px] h-[300px] sm:w-[220px] sm:h-[220px] md:w-[250px] md:h-[250px] lg:w-[280px] lg:h-[280px] object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-300
             "  src={product.image} />
-            <p className="text-left font-[satoshi] text-primary text-lg font-semibold ">{product.name}</p>
+            <p className="text-left font-[clash]  text-2xl pt-2 font-bold   text-primary ">{product.name} </p>
             </div>
           ))}
         </div>

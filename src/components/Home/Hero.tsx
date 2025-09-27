@@ -1,133 +1,146 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Hero: React.FC = () => {
   return (
-    <section>
-      <div className="m-0 p-4 sm:p-6 lg:p-8 w-full  h-[90vh] md:h-screen flex items-center justify-center relative overflow-hidden">
-        <div className="flex items-center justify-center relative w-full h-full max-w-7xl mx-auto">
-          {/* Left text - slides in from left */}
-          <motion.p 
-            className="font-[britney] text-7xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl 2xl:text-[10rem] absolute top-[130px] sm:top-8 md:top-12 lg:top-16 xl:top-20  left-0 text-primary font-extrabold text-shadow-accent-foreground text-shadow-2xs leading-none"
-            initial={{ x: -200, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{ 
-              duration: 1.2, 
-              ease: "easeOut",
-              delay: 0.3 
-            }}
-          >
-            <span className="block sm:inline">Timeless</span>
-            <span className="block sm:inline sm:ml-4 xl:block">Taste</span>
-          </motion.p>
+    <section className="min-h-screen bg-background relative overflow-hidden mt-12 md:mt-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-12 min-h-screen">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-screen py-8 sm:py-12">
           
-          {/* Right text - slides in from right */}
-          <motion.p 
-            className="font-[britney] text-7xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-[10rem] absolute bottom-[110px] sm:bottom-8 md:bottom-12 lg:bottom-16 xl:bottom-20 right-0 font-extrabold text-primary text-shadow-accent-foreground text-shadow-2xs leading-none text-right"
-            initial={{ x: 200, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{ 
-              duration: 1.2, 
-              ease: "easeOut",
-              delay: 0.5 
-            }}
+          {/* Left Content */}
+          <motion.div
+            className="space-y-6 sm:space-y-8 mt-4 sm:mt-6 lg:mt-10 order-2 lg:order-1"
           >
-            <span className="block">Homemade</span>
-            <span className="block">Bite</span>
-          </motion.p>
+            {/* Main Heading */}
+            <div className="space-y-3 sm:space-y-4">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-7xl font-bold text-primary font-[clash] leading-none">
+                Freshly Baked
+                <br /> 
+                <span>Delights</span>
+              </h1>
+              <p className="text-base sm:text-lg text-accent italic font-medium">
+                தினமும் புதிய சுவை • Every Day
+              </p>
+            </div>
 
-          {/* Circular company tag */}
-          <motion.div 
-            className="absolute top-[150px] sm:top-6 lg:top-16 right-4 sm:right-6 lg:right-8 w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-28 lg:h-28 xl:w-32 xl:h-32 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-center border-2 sm:border-3 lg:border-4 border-accent shadow-lg z-10"
-            // initial={{ scale: 0, rotate: -180 }}
-            // animate={{ scale: 1, rotate: 0 }}
-            // transition={{ 
-            //   duration: 1, 
-            //   ease: "easeOut",
-            //   delay: 1 
-            // }}
-          >
-            <div className="text-xs sm:text-sm font-[clash]">
-              <div>EST.</div>
-              <div className="text-lg sm:text-xl lg:text-2xl font-medium font-[clash]">1926</div>
+            {/* Description */}
+            <div className="space-y-3 sm:space-y-4 max-w-xl">
+              <p className="text-lg sm:text-xl text-primary font-semibold tracking-wide leading-[125%]">
+                Discover the magic of freshly baked goodness, handcrafted with 
+                love and the finest ingredients. Delight in every bite, every day.
+              </p>
+              <p className="text-amber-700 font-medium text-sm sm:text-base">
+                பாரம்பரிய சுவையுடன் • Traditional flavors with modern love
+              </p>
+            </div>
+
+            {/* Action Buttons */}
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-2">
+              <Link
+                to="/products"
+                className="bg-amber-800 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold shadow-lg hover:bg-amber-900 transition-colors text-base sm:text-lg text-center"
+              >
+                Products
+              </Link>
+              <Link
+                to="/about"
+                className="border-2 border-amber-800 text-amber-800 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold hover:bg-amber-800 hover:text-white transition-colors text-base sm:text-lg text-center"
+              >
+                Explore Our Story
+              </Link>
+            </div>
+
+            {/* Quality badges */}
+            <div className="flex gap-2 sm:gap-3 pt-3 sm:pt-4">
+              <div className="bg-white/80 backdrop-blur-sm px-3 sm:px-4 py-2 rounded-lg shadow-sm">
+                <span className="text-xs sm:text-sm font-semibold text-amber-800">100% சுத்தம்</span>
+                <p className="text-xs text-amber-600">Pure & Fresh</p>
+              </div>
+              <div className="bg-white/80 backdrop-blur-sm px-3 sm:px-4 py-2 rounded-lg shadow-sm">
+                <span className="text-xs sm:text-sm font-semibold text-amber-800">கைவினை</span>
+                <p className="text-xs text-amber-600">Handcrafted</p>
+              </div>
             </div>
           </motion.div>
 
-          {/* Center image with fade in */}
-          <motion.div className="relative flex items-center justify-center z-0">
-            <motion.img 
-              src={"/images/hero-Photoroom.png"} 
-              alt="Raja Barley Biscuit Company"
-              className="max-w-full h-auto max-h-[50vh] sm:max-h-[55vh] lg:max-h-[60vh] object-contain"
-            //   initial={{ opacity: 0, scale: 0.8 }}
-            //   animate={{ opacity: 1, scale: 1 }}
-            //   transition={{ 
-            //     duration: 1, 
-            //     ease: "easeOut",
-            //     delay: 0.8 
-            //   }}
-            />
+          {/* Right Image Section */}
+          <motion.div
+            className="relative flex justify-center order-1 lg:order-2"
+          >
+            <div className="relative">
+              {/* Main product image */}
+              <div className="relative z-10">
+                <img 
+                  src="/images/hero-Photoroom.png" 
+                  alt="Fresh Baked Goods - Raja Barley Biscuits"
+                  className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg 2xl:max-w-xl h-auto object-contain filter drop-shadow-2xl rounded-lg"
+                />
+              </div>
+
+              {/* Floating quality badge */}
+              <motion.div
+                initial={{ scale: 0, rotate: -180 }}
+                animate={{ scale: 1, rotate: 0 }}
+                transition={{ duration: 1.2, delay: 0 }}
+                className="absolute -top-4 sm:-top-6 -left-4 sm:-left-6 w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 bg-gradient-to-br from-amber-800 to-orange-700 rounded-full flex items-center justify-center text-white z-20 shadow-xl"
+              >
+                <div className="text-center">
+                  <div className="text-xs font-bold">சிறப்பு</div>
+                  <div className="text-sm sm:text-base md:text-lg font-bold">97+</div>
+                  <div className="text-xs">Years</div>
+                </div>
+              </motion.div>
+
+              {/* Tamil text overlay */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0 }}
+                className="absolute -bottom-2 sm:-bottom-4 -right-2 sm:-right-4 bg-white/90 backdrop-blur-sm rounded-lg p-3 sm:p-4 shadow-lg"
+              >
+                <p className="text-amber-800 font-medium text-xs sm:text-sm">
+                  நம்மூர் சுவை
+                </p>
+                <p className="text-amber-600 text-xs">
+                  Hometown Taste
+                </p>
+              </motion.div>
+
+              {/* Decorative elements */}
+              <motion.div
+                animate={{ 
+                  y: [0, -15, 0],
+                  rotate: [0, 5, -5, 0] 
+                }}
+                transition={{ 
+                  duration: 6, 
+                  repeat: Infinity, 
+                  ease: "easeInOut" 
+                }}
+                className="absolute top-16 sm:top-20 -right-6 sm:-right-8 w-4 h-4 sm:w-6 sm:h-6 bg-yellow-400 rounded-full opacity-70"
+              />
+              
+              <motion.div
+                animate={{ 
+                  y: [0, 10, 0],
+                  x: [0, -8, 0] 
+                }}
+                transition={{ 
+                  duration: 4, 
+                  repeat: Infinity, 
+                  ease: "easeInOut",
+                  delay: 2 
+                }}
+                className="absolute bottom-24 sm:bottom-32 -left-8 sm:-left-12 w-3 h-3 sm:w-4 sm:h-4 bg-orange-400 rounded-full opacity-60"
+              />
+            </div>
           </motion.div>
         </div>
-        
-        {/* Company description */}
-        <motion.div 
-          className="absolute bottom-4 sm:bottom-6 lg:bottom-8 left-4 sm:left-6 lg:left-8 right-4 sm:right-6 lg:right-8 max-w-lg sm:max-w-md lg:max-w-xl xl:max-w-2xl"
-          initial={{ y: 50, opacity: 0 }} 
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ 
-            duration: 1, 
-            ease: "easeOut",
-            delay: 0.3
-          }}
-        >
-          <p className="text-md sm:text-base md:text-lg lg:text-xl xl:text-2xl text-muted-foreground leading-relaxed font-[satoshi] font-semibold">
-            Crafting premium biscuits with traditional recipes and finest ingredients for nearly a century. 
-            A legacy of taste, quality, and trust.
-          </p>
-        </motion.div>
-        
-        {/* Decorative elements */}
-        <motion.div 
-          className="absolute top-1/4 left-4 sm:left-8 lg:left-16 w-1.5 h-1.5 sm:w-2 sm:h-2 bg-accent rounded-full"
-          initial={{ scale: 0 }}
-          animate={{ scale: 1 }}
-          transition={{ 
-            duration: 0.5, 
-            delay: 2,
-            repeat: Infinity,
-            repeatType: "reverse",
-            repeatDelay: 2 
-          }}
-        />
-        
-        {/* Floating elements - subtle small vertical float, reduced size and opacity */}
-           <motion.div
-             className="absolute top-1/4 left-10 w-3 h-3 bg-accent rounded-full opacity-40 pointer-events-none"
-             animate={{
-               y: [0, -12, 0],
-             }}
-             transition={{
-               duration: 5,
-               repeat: Infinity,
-               ease: "easeInOut",
-             }}
-           />
-     
-           <motion.div
-             className="absolute bottom-1/4 right-16 w-2 h-2 bg-primary rounded-full opacity-30 pointer-events-none"
-             animate={{
-               y: [0, 10, 0],
-               x: [0, 6, 0],
-             }}
-             transition={{
-               duration: 6,
-               repeat: Infinity,
-               ease: "easeInOut",
-               delay: 1,
-             }}
-           />
       </div>
+
+      {/* Bottom brand strip */}
+      <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-800 via-orange-600 to-amber-800 opacity-60"></div>
     </section>
   );
 };

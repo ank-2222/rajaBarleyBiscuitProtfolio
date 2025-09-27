@@ -28,10 +28,10 @@ const ReviewSection = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <h2 className="font-[britney] text-7xl sm:text-5xl md:text-7xl lg:text-8xl font-extrabold text-primary leading-none mb-6">
+          <h2 className="font-[clash] text-7xl sm:text-5xl md:text-7xl lg:text-8xl font-extrabold text-primary leading-none mb-6">
             What Our
           </h2>
-          <h3 className="font-[britney] text-4xl sm:text-4xl md:text-6xl lg:text-7xl font-extrabold text-primary leading-none mb-8">
+          <h3 className="font-[clash] text-4xl sm:text-4xl md:text-6xl lg:text-7xl font-extrabold text-primary leading-none mb-8">
             Customers Say
           </h3>
           <motion.div
