@@ -10,6 +10,7 @@
   --font-britney: "britney", sans-serif;
   --font-satoshi: "satoshi", sans-serif;
   --font-clash: "clash", sans-serif;
+  --font-clash1: "clash1", sans-serif;
   color-scheme: light dark;
   color: #000;
   background-color: #F8F3D9;
@@ -159,6 +160,15 @@
 @font-face {
   font-family: "clash";
   src: url("/fonts/LibertinusSerif-Bold.otf") format("truetype");
+  /* src: url("/fonts/ClashDisplay-Variable.ttf") format("truetype"); */
+  font-weight: 100 900; 
+  /* font-weight: 100 900;  */
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "clash1";
+  src: url("/fonts/ClashDisplay-Variable.ttf") format("truetype");
   /* src: url("/fonts/ClashDisplay-Variable.ttf") format("truetype"); */
   font-weight: 100 900; 
   /* font-weight: 100 900;  */

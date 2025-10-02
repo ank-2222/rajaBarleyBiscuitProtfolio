@@ -47,7 +47,7 @@ function Header() {
            <img src={"/images/logo.jpg"} className=' rounded-4xl '/>
             </div>
             <div >
-              <h1 className="text-xl lg:text-2xl font-bold text-primary font-[clash] leading-none">
+              <h1 className="text-xl lg:text-2xl font-bold text-primary font-[clash1] leading-none">
                 Raja Barley Biscuit Co.
               </h1>
               <p className="text-xs text-primary font-medium ">Since 1926</p>
