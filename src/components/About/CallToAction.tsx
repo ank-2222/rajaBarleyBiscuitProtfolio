@@ -19,7 +19,7 @@ const CallToAction: React.FC = () => (
           <path d="M12,2L13.5,8.5L20,10L13.5,11.5L12,18L10.5,11.5L4,10L10.5,8.5L12,2Z" />
         </svg>
 
-        <h3 className="font-[britney] text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 text-yellow-400">
+        <h3 className="font-[clash] text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 text-yellow-400">
           Ready to Taste Tradition?
         </h3>
         <p className="text-xl sm:text-2xl text-blue-100 leading-relaxed mb-8 max-w-2xl mx-auto">
@@ -31,7 +31,7 @@ const CallToAction: React.FC = () => (
  
         <a
           href="tel:+91 4522536161"
-          className="bg-transparent border-2 border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-primary font-bold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105 font-[britney] text-lg tracking-wide min-w-[200px]"
+          className="bg-transparent border-2 border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-primary font-bold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105 font-[clash] text-lg tracking-wide min-w-[200px]"
         >
           Call Now
         </a>

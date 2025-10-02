@@ -75,10 +75,10 @@ function ProductsOverview() {
             <div className="h-px bg-gradient-to-l from-transparent via-primary to-transparent w-32"></div>
           </div>
 
-          <h2 className="font-[britney] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-primary leading-tight mb-6 drop-shadow-sm">
+          <h2 className="font-[clash] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-primary leading-tight mb-6 drop-shadow-sm">
             Our Product
           </h2>
-          <h3 className="font-[britney] text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-accent leading-tight mb-8 drop-shadow-sm">
+          <h3 className="font-[clash] text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-accent leading-tight mb-8 drop-shadow-sm">
             Collection
           </h3>
 

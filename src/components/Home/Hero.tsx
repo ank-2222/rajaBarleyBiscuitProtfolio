@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 const Hero: React.FC = () => {
   return (
-    <section className="min-h-screen bg-background relative overflow-hidden mt-12 md:mt-8">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-12 min-h-screen">
+    <section className=" wavePattern3 min-h-screen bg-background relative overflow-hidden mt-12 md:mt-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-0 min-h-screen">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-screen py-8 sm:py-12">
           
           {/* Left Content */}
@@ -15,23 +15,22 @@ const Hero: React.FC = () => {
             {/* Main Heading */}
             <div className="space-y-3 sm:space-y-4">
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-7xl font-bold text-primary font-[clash] leading-none">
-                Freshly Baked
+              A Century of 
                 <br /> 
-                <span>Delights</span>
+                <span>Timeless Taste</span>
               </h1>
               <p className="text-base sm:text-lg text-accent italic font-medium">
-                தினமும் புதிய சுவை • Every Day
+             Raja Barley Biscuit Co. — your neighborhood’s favorite bakery and café, serving classics with love
               </p>
             </div>
 
             {/* Description */}
             <div className="space-y-3 sm:space-y-4 max-w-xl">
               <p className="text-lg sm:text-xl text-primary font-semibold tracking-wide leading-[125%]">
-                Discover the magic of freshly baked goodness, handcrafted with 
-                love and the finest ingredients. Delight in every bite, every day.
+              Our biscuits carry the warmth of tradition and the joy of togetherness. Handcrafted with pure ingredients and timeless recipes, every bite is a reminder of நம் ஊர் சுவை — the hometown taste we all cherish.
               </p>
               <p className="text-amber-700 font-medium text-sm sm:text-base">
-                பாரம்பரிய சுவையுடன் • Traditional flavors with modern love
+              அன்பும் பாரம்பரியமும் • Made with Love and Tradition
               </p>
             </div>
 
@@ -57,10 +56,10 @@ const Hero: React.FC = () => {
                 <span className="text-xs sm:text-sm font-semibold text-amber-800">100% சுத்தம்</span>
                 <p className="text-xs text-amber-600">Pure & Fresh</p>
               </div>
-              <div className="bg-white/80 backdrop-blur-sm px-3 sm:px-4 py-2 rounded-lg shadow-sm">
+              {/* <div className="bg-white/80 backdrop-blur-sm px-3 sm:px-4 py-2 rounded-lg shadow-sm">
                 <span className="text-xs sm:text-sm font-semibold text-amber-800">கைவினை</span>
-                <p className="text-xs text-amber-600">Handcrafted</p>
-              </div>
+                <p className="text-xs text-amber-600">Home made</p>
+              </div> */}
             </div>
           </motion.div>
 
@@ -70,16 +69,16 @@ const Hero: React.FC = () => {
           >
             <div className="relative">
               {/* Main product image */}
-              <div className="relative z-10">
+            <div className="relative z-10">
                 <img 
-                  src="/images/hero-Photoroom.png" 
+                  src="/images/hero2.png" 
                   alt="Fresh Baked Goods - Raja Barley Biscuits"
-                  className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg 2xl:max-w-xl h-auto object-contain filter drop-shadow-2xl rounded-lg"
+                  className="w-full max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl 2xl:max-w-3xl h-auto object-contain filter drop-shadow-2xl rounded-lg"
                 />
               </div>
 
               {/* Floating quality badge */}
-              <motion.div
+              {/* <motion.div
                 initial={{ scale: 0, rotate: -180 }}
                 animate={{ scale: 1, rotate: 0 }}
                 transition={{ duration: 1.2, delay: 0 }}
@@ -90,12 +89,12 @@ const Hero: React.FC = () => {
                   <div className="text-sm sm:text-base md:text-lg font-bold">97+</div>
                   <div className="text-xs">Years</div>
                 </div>
-              </motion.div>
+              </motion.div> */}
 
               {/* Tamil text overlay */}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
+                animate={{ opacity: 1, y: 50 }}
                 transition={{ duration: 0.8, delay: 0 }}
                 className="absolute -bottom-2 sm:-bottom-4 -right-2 sm:-right-4 bg-white/90 backdrop-blur-sm rounded-lg p-3 sm:p-4 shadow-lg"
               >
@@ -124,6 +123,34 @@ const Hero: React.FC = () => {
               <motion.div
                 animate={{ 
                   y: [0, 10, 0],
+                  x: [0, -8, 0] 
+                }}
+                transition={{ 
+                  duration: 4, 
+                  repeat: Infinity, 
+                  ease: "easeInOut",
+                  delay: 2 
+                }}
+                className="absolute bottom-24 sm:bottom-32 -left-8 sm:-left-12 w-3 h-3 sm:w-4 sm:h-4 bg-orange-400 rounded-full opacity-60"
+              />
+              
+              <motion.div
+                animate={{ 
+                  y: [0, 0, 0],
+                  x: [0, -8, 0] 
+                }}
+                transition={{ 
+                  duration: 4, 
+                  repeat: Infinity, 
+                  ease: "easeInOut",
+                  delay: 2 
+                }}
+                className="absolute bottom-24 sm:bottom-32 -left-8 sm:-left-12 w-3 h-3 sm:w-4 sm:h-4 bg-orange-400 rounded-full opacity-60"
+              />
+              
+              <motion.div
+                animate={{ 
+                  y: [0, 30, 0],
                   x: [0, -8, 0] 
                 }}
                 transition={{ 

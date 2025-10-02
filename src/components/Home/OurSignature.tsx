@@ -49,7 +49,7 @@ const OurSignature: React.FC = () => {
   ];
 
   return (
-    <section className="relative pt-8  md:py-10 bg-gradient-to-br from-amber-50 via-orange-50 to-red-50 overflow-hidden wavePattern">
+    <section className="relative pt-8  md:py-10 bg-[#fdf5ce] overflow-hidden wavePattern">
       {/* Parallax Background Elements - reduced opacity and blur for minimalism */}
       <motion.div
         className="absolute inset-0 opacity-5 pointer-events-none"
@@ -57,7 +57,7 @@ const OurSignature: React.FC = () => {
       >
         <div className="absolute top-12 left-12 w-28 h-28 bg-primary rounded-full blur-xl" />
         <div className="absolute top-1/3 right-16 w-36 h-36 bg-accent rounded-full blur-xl" />
-        <div className="absolute bottom-16 left-1/4 w-32 h-32 bg-orange-300 rounded-full blur-xl" />
+        <div className="absolute bottom-16 left-1/4 w-32 h-32 bg-[#fff5c4] rounded-full blur-xl" />
       </motion.div>
 
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24 max-w-[1440px]">
@@ -76,7 +76,7 @@ const OurSignature: React.FC = () => {
           </motion.div>
 
           <motion.h2
-            className="font-[britney] text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary mb-4 leading-tight"
+            className="font-[clash] text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary mb-4 leading-tight"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.15 }}
