@@ -34,6 +34,7 @@ const Contact: React.FC = () => {
       <div className="mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h3 className="font-[clash] text-4xl sm:text-5xl font-bold text-primary mb-6">Visit Us Today</h3>
+          <img src={"/images/divider.png"} className="h-30 aspect-video m-auto my-[-40px]  " />
           <p className="text-xl text-gray-700">Experience our heritage, taste our tradition</p>
         </div>
 

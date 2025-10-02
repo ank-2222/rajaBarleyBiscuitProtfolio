@@ -6,6 +6,7 @@ function Hero() {
         <h1 className="text-4xl font-bold text-gray-800 tracking-tight">
           Certificates & Recognitions
         </h1>
+        <img src={"/images/divider.png"} className="h-30 aspect-video m-auto my-[-30px]  " />
         <p className="mt-4 text-lg text-gray-600">
           A legacy of trust, quality, and excellence carried across generations.
         </p>

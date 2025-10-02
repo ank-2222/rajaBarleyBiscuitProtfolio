@@ -140,6 +140,7 @@ function ProductDisplay() {
 <div className=" m-auto max-w-[1440px]">
 
     <p className=" text-3xl lg:text-7xl mb-5 font-[clash] text-center font-semibold   ">Namkeen Bites</p>
+    <img src={"/images/divider.png"} className="h-30 aspect-video m-auto my-[-30px]  " />
       <ImageGallery
         imagesInfoArray={namkeenImages}
         columnCount={3}
@@ -150,6 +151,7 @@ function ProductDisplay() {
 <div className=" m-auto mt-10 max-w-[1440px]">
 
     <p className=" text-3xl lg:text-7xl mb-5 font-[clash] text-center font-semibold   ">Sweet Taste</p>
+    <img src={"/images/divider.png"} className="h-30 aspect-video m-auto my-[-30px]  " />
       <ImageGallery
         imagesInfoArray={sweetImages}
         columnCount={3}
@@ -160,6 +162,7 @@ function ProductDisplay() {
 <div className=" m-auto mt-10 max-w-[1440px]">
 
     <p className=" text-3xl lg:text-7xl mb-5 font-[clash] text-center font-semibold   ">Bakery Bites</p>
+    <img src={"/images/divider.png"} className="h-30 aspect-video m-auto my-[-30px]  " />
       <ImageGallery
         imagesInfoArray={bakeryImages}
         columnCount={2}

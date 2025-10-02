@@ -34,6 +34,7 @@ const ReviewSection = () => {
           <h3 className="font-[clash] text-4xl sm:text-4xl md:text-6xl lg:text-7xl font-extrabold text-primary leading-none mb-8">
             Customers Say
           </h3>
+          <img src={"/images/divider.png"} className="h-30 aspect-video m-auto my-[-30px]  " />
           <motion.div
             className="w-24 sm:w-28 md:w-32 h-1 bg-accent mx-auto mb-6"
             initial={{ width: 0 }}
@@ -137,7 +138,7 @@ const ReviewSection = () => {
             <h3 className="font-[clash] text-3xl sm:text-4xl lg:text-5xl font-extrabold text-primary mb-6">
               Join The Royal Family
             </h3>
-
+<img src={"/images/divider.png"} className="h-30 aspect-video m-auto my-[-30px]  " />
             <p className="font-[satoshi] text-base sm:text-lg text-muted-foreground leading-relaxed mb-8 max-w-xl mx-auto px-4 sm:px-0">
               Share your Raja Barley moments and become part of our sweet
               legacy. Tag us and watch your experience inspire others to taste
