@@ -73,7 +73,7 @@ function Header() {
             <div className="flex items-center space-x-4 text-sm text-primary font-semibold">
               <div className="flex items-center space-x-2">
                 <Phone size={16} />
-                <span>+91 45225 36161</span>
+                <span>+91 91429 55555</span>
               </div>
               {/* <div className="flex items-center space-x-2">
                 <Mail size={16} />
@@ -129,7 +129,7 @@ function Header() {
               <div className="pt-4 border-t border-gray-200 space-y-3">
                 <div className="flex items-center space-x-3">
                   <Phone size={18} className="text-primary" />
-                  <span className="text-sm">+91 45225 36161</span>
+                  <span className="text-sm">+91 91429 55555</span>
                 </div>
                 {/* <div className="flex items-center space-x-3">
                   <Mail size={18} className="text-primary" />
