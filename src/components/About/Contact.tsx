@@ -1,3 +1,4 @@
+import { ChevronRight, Map } from "lucide-react";
 import React from "react";
 
 const Contact: React.FC = () => {
@@ -59,6 +60,15 @@ const Contact: React.FC = () => {
                   </div>
                 </div>
 
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
+                   <Map/>
+                  </div>
+                  <div>
+                    <h5 className="font-bold text-primary mb-1">Location</h5>
+                    <a href="https://maps.app.goo.gl/TF6KNwKUjSxrsU5q7" target="_blank" className="text-gray-700 underline flex justify-center items-center gap-x-2">Map location<br /> <ChevronRight size={20} /></a>
+                  </div>
+                </div>
                 <div className="flex items-start space-x-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
                     <svg className="w-6 h-6 text-primary" fill="currentColor" viewBox="0 0 20 20">
