@@ -1,4 +1,4 @@
-import { ChevronRight, Map } from "lucide-react";
+import { ChevronRight, Map, MapIcon } from "lucide-react";
 import React from "react";
 
 const Contact: React.FC = () => {
@@ -8,25 +8,30 @@ const Contact: React.FC = () => {
       type: "Manufacturing Unit",
       address: "37/3, Aruppukottai Main Road, Avaniyapuram",
       city: "Madurai - 625012",
-      isMain: false
+      isMain: false,
+      mapLink:""
+
     },
      {
       type: "Branch",
       address: "115, Nethaji road",
       city: "Madurai, Tamil Nadu - 625001",
-      isMain: true
+      isMain: true,
+      mapLink:"https://maps.app.goo.gl/KM6s5eS6TxeNPJPH6?g_st=iw"
     },
     {
       type: "Branch",
       address: "79/2, Bypass Road",
       city: "Madurai - 625010",
-      isMain: false
+      isMain: false,
+      mapLink:"https://maps.app.goo.gl/GTRzE44vQCZ28hbb7?g_st=iw"
     },
     {
       type: "Branch",
       address: "81, P.T. Rajan Road, B.B Kulam",
       city: "Madurai - 625002",
-      isMain: false
+      isMain: false,
+      mapLink:"https://maps.app.goo.gl/yTE6KFhhRCSW4ahh6?g_st=iw"
     }
   ];
 
@@ -158,7 +163,9 @@ const Contact: React.FC = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               {locations.map((location, index) => (
-                <div
+                <a
+                href={location?.mapLink}
+                target="_blank"
                   key={index}
                   className={`relative bg-white/90 backdrop-blur-sm rounded-xl p-6 shadow-lg border transition-all duration-300 hover:shadow-xl hover:scale-105 ${
                     location.isMain 
@@ -198,7 +205,9 @@ const Contact: React.FC = () => {
                       </p>
                     </div>
                   </div>
-
+<div className="flex justify-start items-center my-2 gap-x-2 text-sm font-medium text-primary underline">
+  <MapIcon/> Open map
+</div>
                   {location.isMain && (
                     <div className="mt-4 pt-4 border-t border-primary/10">
                       <div className="flex items-center space-x-2 text-xs text-primary">
@@ -209,7 +218,7 @@ const Contact: React.FC = () => {
                       </div>
                     </div>
                   )}
-                </div>
+                </a>
               ))}
             </div>
           </div>
